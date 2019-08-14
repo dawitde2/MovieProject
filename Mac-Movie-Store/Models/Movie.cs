@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Web;
 
@@ -13,6 +14,7 @@ namespace Mac_Movie_Store.Models
         public DateTime ReleasedTime { get; set; }
 
         public string Genre{ get; set; }
+       
         public int NumberOfCopy { get; set; }
 
     }
