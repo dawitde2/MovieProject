@@ -29,5 +29,7 @@ namespace Mac_Movie_Store.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<Mac_Movie_Store.Models.Movie> Movies { get; set; }
     }
 }

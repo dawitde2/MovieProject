@@ -14,5 +14,6 @@ namespace Mac_Movie_Store.Models
 
         public string Genre{ get; set; }
         public int NumberOfCopy { get; set; }
+
     }
 }
